@@ -1,0 +1,48 @@
+[ui]
+username = Simon Charette <charette.s@gmail.com>
+ignore = ~/.hgignore
+editor = vim
+
+[alias]
+recommit = hg commit `cat .hg/last-files.txt` -m `cat .hg/last-message.txt`
+
+[extensions]
+hgext.extdiff =
+hgext.mq =
+pager =
+
+[pager]
+pager = LESS='FSRX' less
+
+[extdiff]
+cmd.meld =
+
+[merge-tools]
+meld.args = $base $local $other
+
+[extensions]
+hgext.convert=
+hgext.record=
+hgext.graphlog=
+hgext.fetch=
+hgext.purge=
+color =
+
+[color]
+# A personaliser selon vos préférences
+status.modified = magenta bold
+status.added = green bold
+status.removed = red bold
+status.deleted = red bold
+status.unknown = cyan bold
+status.ignored = white bold
+
+diff.diffline = bold
+diff.extended = cyan bold
+diff.file_a = red bold
+diff.file_b = green bold
+diff.hunk = magenta
+diff.deleted = white red_background 
+diff.inserted = white green_background
+diff.changed = white
+diff.trailingwhitespace = bold red_background
