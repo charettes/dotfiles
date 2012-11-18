@@ -1,0 +1,16 @@
+#aptana files
+\.project
+\.pydevproject
+
+#textmate files
+\._
+
+^\.tmp
+
+\.orig$
+
+#osx meta data
+\.DS_Store
+
+#uploads for images and txt files
+(?i)^uploads/.*\.(jpe?g|png|gif|txt)$
