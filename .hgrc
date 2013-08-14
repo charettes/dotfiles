@@ -7,15 +7,19 @@ editor = vim
 recommit = hg commit `cat .hg/last-files.txt` -m `cat .hg/last-message.txt`
 
 [extensions]
-hgext.extdiff =
-hgext.mq =
+extdiff =
+mq =
 pager =
-hgext.convert=
-hgext.record=
-hgext.graphlog=
-hgext.fetch=
-hgext.purge=
+convert =
+record =
+graphlog =
+fetch =
+purge =
 color =
+rebase =
+histedit =
+shelve = ~/.hgextensions/shelve/hgshelve.py
+histedit = ~/.hgextensions/histedit/hg_histedit.py
 
 [pager]
 pager = LESS='FSRX' less
