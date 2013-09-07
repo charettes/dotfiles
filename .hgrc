@@ -28,7 +28,7 @@ pager = LESS='FSRX' less
 cmd.meld =
 
 [merge-tools]
-meld.args = $base $local $other
+meld.args = $local $other
 
 [color]
 status.modified = magenta bold
