@@ -10,7 +10,7 @@ set tabstop=4
 
 set expandtab
 
-" Always  set auto indenting on
+" Always set auto indenting on
 set autoindent
 
 " Highlight lines with more than 80 characters
