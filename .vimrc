@@ -15,7 +15,7 @@ set autoindent
 
 " Highlight lines with more than 80 characters
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+match OverLength /\%80v.\+/
 
 " Pressing Enter insert new line without entering edit mode
 map <S-Enter> O<Esc>
